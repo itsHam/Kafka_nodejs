@@ -5,7 +5,6 @@ var fs = require('fs');
 var express = require('express');
 var app = express()
 var assert = require('assert');
-var data;
 
 var elasticsearch = require('elasticsearch');
 var client = new elasticsearch.Client({
